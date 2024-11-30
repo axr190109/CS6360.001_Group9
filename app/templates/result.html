@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p><strong>Input Features:</strong></p>
+    <ul>
+        <li>Number of Joins: {{ features[0] }}</li>
+        <li>Number of WHERE Conditions: {{ features[1] }}</li>
+        <li>Number of Aggregates: {{ features[2] }}</li>
+        <li>Number of Subqueries: {{ features[3] }}</li>
+        <li>Query Length: {{ features[4] }}</li>
+        <li>Number of SELECT Columns: {{ features[5] }}</li>
+        <li>Number of DISTINCT Clauses: {{ features[6] }}</li>
+        <li>Presence of GROUP BY: {{ features[7] }}</li>
+        <li>Presence of ORDER BY: {{ features[8] }}</li>
+        <li>Nested Subquery Levels: {{ features[9] }}</li>
+    </ul>
+
+    <p><strong>Predicted Runtime:</strong> {{ predicted_runtime }} seconds</p>
+    <a href="/">Back to Home</a>
+</body>
+</html>

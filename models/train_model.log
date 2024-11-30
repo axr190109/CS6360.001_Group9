@@ -1,0 +1,19 @@
+2024-11-26 23:47:02,910 - Runtime prediction model training complete.
+2024-11-26 23:47:09,238 - Result size prediction model training complete.
+2024-11-26 23:47:15,671 - Error class prediction model training complete.
+2024-11-26 23:47:15,895 - Runtime MAE: 0.0840
+2024-11-26 23:47:15,896 - Runtime RMSE: 0.1098
+2024-11-26 23:47:16,114 - Size MAE: 202.5654
+2024-11-26 23:47:16,114 - Size RMSE: 228.0675
+2024-11-26 23:47:16,363 - Error Class Accuracy: 0.8333
+2024-11-26 23:47:16,364 - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.67      1.00      0.80         2
+           1       1.00      0.75      0.86         4
+
+    accuracy                           0.83         6
+   macro avg       0.83      0.88      0.83         6
+weighted avg       0.89      0.83      0.84         6
+
