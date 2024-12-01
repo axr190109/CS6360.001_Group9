@@ -17,3 +17,22 @@ Classification Report:
    macro avg       0.83      0.88      0.83         6
 weighted avg       0.89      0.83      0.84         6
 
+2024-12-01 15:26:32,764 - Runtime prediction model training complete.
+2024-12-01 15:26:41,975 - Result size prediction model training complete.
+2024-12-01 15:26:51,328 - Error class prediction model training complete.
+2024-12-01 15:26:51,865 - Runtime MAE: 0.3476
+2024-12-01 15:26:51,865 - Runtime RMSE: 0.3828
+2024-12-01 15:26:52,218 - Size MAE: 201.6524
+2024-12-01 15:26:52,219 - Size RMSE: 227.1145
+2024-12-01 15:26:52,714 - Error Class Accuracy: 0.6667
+2024-12-01 15:26:52,715 - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.50      1.00      0.67         2
+           1       1.00      0.50      0.67         4
+
+    accuracy                           0.67         6
+   macro avg       0.75      0.75      0.67         6
+weighted avg       0.83      0.67      0.67         6
+
