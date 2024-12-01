@@ -23,6 +23,12 @@ Open the downloaded installer file.
 Check the box that says Add Python 3.12 to PATH before proceeding.
 Click on Customize Installation and ensure all optional features are selected.
 Click Install Now.
+**Note if you need to manually add to PATH, here are the steps:
+After installation of the exe file, we need to add to PATH
+"C:\Users\raven\AppData\Local\Programs\Python\Python312"
+"C:\Users\raven\AppData\Local\Programs\Python\Python312\Scripts"  
+You need to add these two to PATH and here's how you do it(note this is for my machine but the Python folder is usually stored here so you just need to change the username for your machine):
+In Windows search, select "Edit the system environment variables", then select Environment variables, then under System variables you select PATH and hit Edit, and select new on the right sidebar and add these two to PATH, and finally restart your VSCode and terminal or other IDE you're using.
 
 **Verify Installation:**
 Open a terminal or command prompt and type:
